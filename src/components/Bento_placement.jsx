@@ -47,14 +47,14 @@ function Bento_placement() {
     return (
         <div className="bg-black text-white p-12 flex flex-col items-center min-h-screen">
             <div>
-                <div className="flex gap-2 mb-6 text-left justify-start text-left">
+                <div className="flex gap-2 mb-6 justify-start">
                     <img src={star} alt="star" className="w-6 h-6" />
                     <h2 className="text-xl font-semibold">Our Alumni At</h2>
                 </div>
 
-                <div className="grid grid-cols-4 grid-rows-5 w-full max-w-6xl">
+                <div className="grid grid-cols-4 grid-rows-5 w-full container">
                     {companies.map((company, index) => (
-                        <div key={index} className="bg-black p-8 text-center border-white border-[1px] h-40 flex items-center justify-center">
+                        <div key={index} className="bg-black p-8 text-center border border-white h-40 flex items-center justify-center">
                             <img src={company.logo} alt={company.name} className="" />
                         </div>
                     ))}

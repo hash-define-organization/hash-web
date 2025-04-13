@@ -16,7 +16,7 @@ function Footer() {
     <footer className="w-full h-52">
       <div className="flex items-center justify-between px-12 py-8 h-52">
         {/* Logo */}
-        <div className="w-32 h-16">
+        <div className="w-32 h-16 flex justify-center items-center">
           <img src={logo} alt="define_logo" />
         </div>
 
